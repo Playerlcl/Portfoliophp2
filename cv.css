@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;
+    height: 100vh;
+    cursor: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+
+.nav-link
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-link li{
+    padding: 1rem;
+
+}
+
+.nav-link h2{
+    flex: 1;
+}
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: all 0.5s ease;
+    transition-property: background, transform;
+}
+
+.link-grow
+{
+    transform: scale(1.5) translate(-25%, -25%);
+    background: #222;
+    opacity: 0.9;
+}
+
+.hovered-link{
+    color: rgb(255, 0, 0);
+    transition: 0.3s ease-out;
+    z-index: 4;
+}
+#paracv{
+    padding: 3rem 50rem;
+    
+    
+}
+
+
+
+footer{
+    
+    border: 2rem inset black;
+    background-color: rgb(7, 7, 7);
+}
+
+#textfooter{
+    color: white;
+    cursor: none;
+    
+}
+
+a{
+    cursor: none;
+}
+
+#photocv{
+    position :relative;
+    top: 0%;
+    left: 35%;
+
+}#vid{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#accueil{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#cv{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+
+#Telecharger{
+    position :relative;
+    top: 0%;
+    left: 45%;
+    border-radius: 100px;
+    width: 10rem;
+    height: 3rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}

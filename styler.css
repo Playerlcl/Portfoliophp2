@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;
+    height: 100vh;
+    cursor: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+}
+
+
+.nav-link
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-link li{
+    padding: 1rem;
+
+}
+
+.nav-link h2{
+    flex: 1;
+}
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: all 0.5s ease;
+    transition-property: background, transform;
+}
+
+
+.image{
+    height: 60vh;
+    background: url(programming-g7532ac548_1920.png) no-repeat center/cover;
+
+
+}
+
+
+.image:hover{
+    filter: none;
+}
+
+
+
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: all 0.5s ease;
+    transition-property: background, transform;
+}
+
+.link-grow
+{
+    transform: scale(1.5) translate(-25%, -25%);
+    background: #222;
+    opacity: 0.9;
+}
+
+.hovered-link{
+    color: rgb(255, 0, 0);
+    transition: 0.3s ease-out;
+    z-index: 4;
+}
+
+
+
+footer{
+    position:relative;
+    border: 2rem inset black;
+    background-color: rgb(7, 7, 7);
+}
+
+#textfooter{
+    color: white;
+    cursor: none;
+    padding: 3rem 5rem;
+    
+}
+
+a{
+    cursor: none;
+}
+
+#photocv{
+    position :relative;
+    top: 0%;
+    left: 35%;
+
+}#vid{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#acceuil{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#butonco{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+}
+#cv{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}

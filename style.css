@@ -1,0 +1,62 @@
+
+
+*{
+    margin: auto ;
+    padding: auto;
+   
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: normal;
+    align-items: center;
+    
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body{
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    overflow: auto;
+    height: 100vh;
+    background: url('238870.jpg');
+}
+
+#image{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 18%; left: 47%;
+    transform: translate(-25%, -50%);
+}
+fieldset{
+    width: max-content;
+    border-radius: 10px;
+}
+
+#mdp{
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+head{
+    visibility: hidden;
+}
+#bouton{
+
+    border-radius: 10px;
+    position: absolute;
+    top: 92%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    
+}
+
+#identf{
+    color: white;
+}
+
+#motpasse{
+    color: white;
+}

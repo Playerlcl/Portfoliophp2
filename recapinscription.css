@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;
+    height: 100vh;
+    cursor: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    min-height: 10vh;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+.nav-link
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-link li{
+    padding: 1rem;
+
+}
+
+.nav-link h2{
+    flex: 1;
+}
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 3;
+    transition: all 0.5s ease;
+    transition-property: background, transform;
+}
+.link-grow
+{
+    transform: scale(1.5) translate(-25%, -25%);
+    background: #222;
+    opacity: 0.9;
+}
+
+.hovered-link{
+    color: rgb(255, 0, 0);
+    transition: 0.3s ease-out;
+    z-index: 4;
+}
+
+#vid{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#acceuil{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+#butonco{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+}
+#cv{
+    border-radius: 100px;
+    width: 5rem;
+    height: 1.5rem;
+    cursor: none;
+    outline: none;
+    border: 2px inset black;
+
+}
+
+main{
+
+    margin: 3rem auto 0;
+    width: 550px;
+    background: rgb(94, 94, 223);
+    padding: 1rem 2rem 3rem;
+    box-shadow: 1px 2px 3px #333;
+    border-radius: 4px;
+    }
+
+p{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
