@@ -70,9 +70,9 @@ try{
     function afficherinfo($row){
      
         //for($i = 0; $row['$i'] <= $rowresult['id']; $i++ 
-        echo "nom : " . $row['nom'];
+        echo "<strong>nom : " . $row['nom']. "<strong>";
         echo "<br>";
-        echo "prenom : " . $row['prenom'];
+        echo "<strong>prenom : " . $row['prenom']. "<strong>";
         echo "<br>";
        
     }
