@@ -23,7 +23,7 @@ motdepasse.addEventListener('input', (e) =>{
 
 document.getElementById('bouton').addEventListener('click',() =>{
 
-    window.location.href='recapinscri.php'
+    window.location.href='recapinscri.html'
 })
 
 /*document.getElementById('bouton').addEventListener('click', () =>{
