@@ -32,7 +32,7 @@
 
    <main>
             <h1>Recapitulation inscription</h1>
-            <?php 
+                <?php 
 
                 $name = $_GET['nom'];
                try{
@@ -71,7 +71,7 @@
                     echo "<br>";
                    
                 }
-            ?>
+                ?>
             
     </main>
     
