@@ -15,12 +15,12 @@ echo "<br>";
 echo "<br>";
 
 $requete = 'SELECT * from user ';
-$requete2 = 'SELECT Max(id) FROM user';
+
     //$rowresult =$dbh->query($requete2);
     //print "id max". $rowresult;
 
 
-foreach($dbh->query($requete2) as $row){
+foreach($dbh->query($requete) as $row){
     afficherinfo($row);
 
 }
@@ -35,9 +35,9 @@ catch (PDOException $e){
 function afficherinfo($row){
  
     //for($i = 0; $row['$i'] <= $rowresult['id']; $i++ 
-    echo "nom : " . $row['Max(id)'];
+    echo "nom : " . $row['nom'];
     echo "<br>";
-    echo "prenom : " . $row['Max(id)'];
+    echo "prenom : " . $row['prenom'];
     echo "<br>";
    
 }
